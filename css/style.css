@@ -1,0 +1,102 @@
+body{
+    /* background-color: #f5f5f5; */
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.wrap{
+    padding: 30px 10px 0 10px 
+}
+h1, .h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+header{
+}
+button {
+    width: 100%;
+    height: 40px;
+}
+
+main {
+    margin: 50px 0;
+}
+
+.adm_href{
+    float: right;
+    margin: 10px 30px;
+}
+.home_href{
+    margin: 0px 10px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+
+}
+.del-btn{
+    margin-top: 10px;
+    color: red;
+    cursor: pointer;
+    background-image: url('../image/del.png');
+    width: 24px;
+    height: 24px;
+}
+.edit-btn{
+    margin-top: 10px;
+    color: green;
+    cursor: pointer;
+    background-image: url('../image/edit.png');
+    width: 24px;
+    height: 24px;
+}
+input{
+    margin-bottom: 23px;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sort{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sort button{
+    margin-right: 3%;
+}
+.sort button:last-child{
+    margin-right: 0;
+}
+
+.btn-success{
+    background: #a9d28c;
+    width: 100%;
+    color: black;
+}
+.btn-secondary{
+    border: 0;
+}
+
+.inp{
+    border: 0;
+
+}
+
+.inp{
+    border: 0;
+    width: 40%;
+    
+}
+.form-control{
+    color: black;
+}
+
+.buttondel{
+    width: 40%;
+}
+
+.valuetask2{
+   text-decoration: line-through;
+}
